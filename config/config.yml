@@ -1,10 +1,10 @@
 ---
-title:               Obtvse Demo
-tagline:             Clever tagline.
-login:               <%= ENV["obtvse_login"] ? ENV["obtvse_login"] : "username" %>
-password:            <%= ENV["obtvse_password"] ? ENV["obtvse_password"] : "password" %>
-name:                Your name
-twitter:             your_twitter_handle
-github:              your_github_handle
-email:               address@example.com
-google_analytics_id: YOUR_GA_ID
+title: Scott Klein
+tagline: Byte shepherd. Fumbling founder.
+name: Scott Klein
+twitter: scootklein
+github: http://github.com/scootklein
+email: scott@scottkle.in
+google_analytics_id: UA-21155180-1
+login: <%= ENV['OBTVSE_LOGIN'] %>
+password: <%= ENV['OBTVSE_PASSWORD'] %>
