@@ -7,6 +7,6 @@ require File.expand_path('../config/application', __FILE__)
 Obtvse::Application.load_tasks
 
 desc 'clear old sessions'
-task :clear_old_sessions => :environment
-  ActiveRecord::Base.connection.execute("DELETE FROM sessions WHERE updated_at < #{1.day.ago.to_s}")  
+task :clear_old_sessions => :environment do
+  ActiveRecord::Base.connection.execute("DELETE FROM sessions WHERE updated_at < '#{1.day.ago.to_s}'")  
 end
