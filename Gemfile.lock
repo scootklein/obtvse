@@ -195,6 +195,6 @@ DEPENDENCIES
   sass-rails (~> 3)
   spork (~> 0.9)
   sqlite3 (~> 1)
-  stringex (~> 1)!
+  stringex!
   thin (~> 1)
   uglifier (~> 1)
